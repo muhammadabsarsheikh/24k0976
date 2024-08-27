@@ -1,0 +1,98 @@
+PSEUDOCODE
+
+
+QUESTION 1:  Find if the number is multiple of 5.
+
+START
+
+//Input
+INPUT number1
+//Process
+SET remainder = number1%5
+
+//conditionalStatement
+IF remainder == 0
+     PRINT ‘ The Number is Divisible by 5’
+ELSE 
+     PRINT ‘The Number is not Divisible by 5’
+END
+
+
+QUESTION 2: Check if a character is uppercase or lowercase.
+
+START
+
+//Input
+INPUT character1
+
+//conditionalStatement
+IF character1 >= ’A’ AND character1 <= ‘Z’
+     PRINT ‘ The character is uppercase
+ELSE
+      PRINT ‘The character is lowercase’
+END
+
+
+QUESTION 3:  Create a small calculator which only does ‘+’ or ‘*‘Operations. (Hint: Take three variable inputs with one being used for the operator)
+
+START
+//Input
+INPUT number1
+INPUT Operator1 
+
+//Process
+SET add to number1 + number2
+SET multiply to number1 * number2
+//Conditions
+IF (Operator1 == ‘+’)
+    PRINT add
+ELSE
+    PRINT multiply
+END
+
+
+
+QUESTION 4:  Check whether a given number is positive, negative, or zero.
+
+
+START
+//Input
+INPUT number1
+//Conditions
+IF (number1 >= 0)
+    PRINT ‘The Number is Positive’
+ELSE
+    PRINT ‘The Number is Negative’
+END
+
+
+
+
+QUESTION 5:  Determine if a person is a teenager (between 13 and 19 years old).
+
+START
+//Input
+INPUT age
+
+//condition
+IF ( age >= 13 AND age <= 19 )
+   PRINT ‘You are a teenager’
+ELSE
+    PRINT ‘You are not a teenager’
+
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
